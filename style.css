@@ -1,0 +1,66 @@
+body {
+    font-family: 'Georgia', serif;
+    background: #f5f0e1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .book-container {
+    width: 70%;
+    max-width: 900px;
+    background: #fffaf0;
+    border: 2px solid #d1bfa7;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    text-align: center;
+  }
+  
+  .page {
+    display: none;
+  }
+  
+  .page.active {
+    display: block;
+  }
+  
+  h1 {
+    font-size: 28px;
+    color: #5a3e36;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #6a4c3c;
+  }
+  
+  p {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+    margin: 20px 0;
+  }
+  
+  audio {
+    margin: 20px 0;
+    width: 80%;
+  }
+  
+  button {
+    background: #c94f4f;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+  }
+  
+  button:hover {
+    background: #a63c3c;
+  }
+  

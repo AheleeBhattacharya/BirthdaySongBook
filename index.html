@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Gaane Gaane Jodi Amar Moner Kotha</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="book-container">
+    <!-- Cover Page -->
+    <div id="cover" class="page active">
+      <h1>📖 Gaane Gaane Jodi Amar Moner Kotha<br>Tomar Moner Kache Pouche Jaye</h1>
+      <button onclick="openBook()">Open Book</button>
+    </div>
+
+    <!-- Pages -->
+    <div id="page1" class="page">
+      <h2>🎵 Jodi tare nai chini go</h2>
+      <p>
+        This song reminds me of the magical moment when you truly saw me for who I am.<br>
+        It felt like you had recognized me even before I recognized myself.<br>
+        I wanted you to choose me in my subconscious mind and wanted to give time to ensure both you and myself.<br>
+        The way you understood my silence and my heart made me feel chosen.<br>
+        You didn’t just enter my life — you completed it by making me your soulmate.<br>
+        Every time I hear this song, I relive that first moment of being deeply, beautifully identified.<br>
+        It is the beginning of our love story, where my journey found its true direction.
+      </p>
+      <audio controls>
+        <source src="mp3/jodi-tare-nai-chini-go.m4a" type="audio/mp4">
+      </audio>
+      <button onclick="nextPage(2)">Next ➡️</button>
+    </div>
+
+    <div id="page2" class="page">
+      <h2>🎵 Piya tose naina lage re</h2>
+      <p>
+        This song takes me back to the time when my feelings for you began to bloom.<br>
+        The way our eyes met and lingered spoke more than words ever could.<br>
+        Each glance carried a world of emotions, slowly weaving a bond between us.<br>
+        I realized then that I had started falling for you, gently, unknowingly.<br>
+        Those eye contacts were magical — filled with warmth, curiosity, and secret promises.<br>
+        Every look made my heart race and brought me closer to you.
+      </p>
+      <audio controls>
+        <source src="mp3/piya-tose-naina-lage-re.m4a" type="audio/mp4">
+      </audio>
+      <button onclick="nextPage(3)">Next ➡️</button>
+    </div>
+
+    <div id="page3" class="page">
+      <h2>🎵 Hum tere pyar mein</h2>
+      <p>
+        This song expresses the depth of my love, which has only grown stronger each day.<br>
+        I am constantly thinking of you, in every quiet moment and every busy hour.<br>
+        Your presence fills my thoughts, making even ordinary things feel extraordinary.<br>
+        I find myself smiling at memories, cherishing every small gesture you make.<br>
+        It feels like my world begins and ends with you, wrapped in love.<br>
+        This song is a reflection of how completely I am consumed by your love.
+      </p>
+      <audio controls>
+        <source src="mp3/hum-tere-pyar-mein.m4a" type="audio/mp4">
+      </audio>
+      <button onclick="nextPage(4)">Next ➡️</button>
+    </div>
+
+    <div id="page4" class="page">
+      <h2>🎵 Tere bin</h2>
+      <p>
+        This song captures the emptiness I feel whenever you are not around.<br>
+        The silence without you is loud, and the days seem longer and colder.<br>
+        I cannot imagine living without you, because you have become my life itself.<br>
+        Your absence leaves me restless, searching for comfort in your memories.<br>
+        Every moment apart reminds me of how deeply I need you near me.<br>
+        It is a song of longing, loneliness, and the ache of missing you.
+      </p>
+      <audio controls>
+        <source src="mp3/tere-bin.m4a" type="audio/mp4">
+      </audio>
+      <button onclick="nextPage(5)">Next ➡️</button>
+    </div>
+
+    <div id="page5" class="page">
+      <h2>🎵 Ami hobo rat</h2>
+      <p>
+        This song makes me dream about our future together, hand in hand.<br>
+        I imagine building a life where every day is filled with love and companionship.<br>
+        I see us supporting each other through challenges and celebrating every joy.<br>
+        Our future feels like a promise of endless togetherness and shared dreams.<br>
+        I picture a home full of laughter, warmth, and everlasting love.<br>
+        This song is the vision of the life I want us to create together.
+      </p>
+      <audio controls>
+        <source src="mp3/ami-hobo-rat.m4a" type="audio/mp4">
+      </audio>
+      <button onclick="nextPage(6)">Next ➡️</button>
+    </div>
+
+    <div id="page6" class="page">
+      <h2>🎵 Ei to hethay kunjo chayay</h2>
+      <p>
+        This song is my vow to be with you, no matter what life brings.<br>
+        It carries the promise of always standing beside you through thick and thin.<br>
+        I dream of walking every path together, from today into forever.<br>
+        There is comfort in knowing that our love is strong enough to last.<br>
+        This song is not just about love today, but about love eternal.<br>
+        Always and forever, I plan to be yours — in every lifetime, in every way.
+      </p>
+      <audio controls>
+        <source src="mp3/ei-to-hethay-kunjo-chayay.m4a" type="audio/mp4">
+      </audio>
+      <button onclick="nextPage(7)">Next ➡️</button>
+    </div>
+
+    <!-- Final Page -->
+    <div id="page7" class="page">
+      <h2>🎂 Happy Birthday My Love ❤️</h2>
+      <h1>Loads of love and good wishes, Bhodu</h1>
+      <h1>Stay blessed and happy always, my Puchu</h1>
+      <p>
+        On this special day, I want you to know how precious you are to me.<br>
+        You are not just a part of my life, you are my whole life.<br>
+        I never want to lose you because you are my safe place, my strength, my happiness.<br>
+        Every moment with you feels like a blessing, and I cherish it endlessly.<br>
+        May this birthday be as special as the love you’ve brought into my world.<br>
+        Our storybook closes here, but our love story will never end. 💕
+      </p>
+      <button onclick="closeBook()">Close Book 📖</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
